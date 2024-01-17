@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif; 
-    background-color: #DCF2F1;   
+    background-color: white;   
 }
 
 header {
@@ -18,8 +18,13 @@ header h4 {
 
 header p {
     margin-top: -5px;
-    font-size: x-small;
+    font-size: small;
     color: #365486;
+}
+
+header h2 {
+    margin-top: 60px;
+    color: #0F1035;   
 }
 
 .inputsection{
@@ -56,3 +61,4 @@ button:active{
     background-color: #365486;
     transform: translateY(1px);
 }
+
