@@ -22,19 +22,30 @@ header p {
     color: #365486;
 }
 
-header h2 {
-    margin-top: 60px;
-    color: #0F1035;   
+header h3 {
+    margin-top: -125px;
+    text-align: left;
+    font-size: small;
+    color: #365486;
 }
 
-header h3 {
+header h2 {
     text-align: left;
-    font-size: medium;
+    font-size: small;
+    color: #365486; 
+}
+
+header img {
+    margin-top: -10px;
 }
 
 .inputsection{
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
 }
 #squareSide {
     margin-top: 15px;

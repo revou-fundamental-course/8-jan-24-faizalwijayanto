@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Katik Persegi</title>
-    <script src="./js/script.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
    <header>
         <h1>Kalkulator Luas dan Keliling Persegi</h1>
         <h4>Welcome to Kalkulator Luas dan Keliling Persegi</h4>
         <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan tugas Mini Project RevoU</p>
-        <h2>Luas Persegi</h2>
-        <img src="./asset/persegi.png" width="250px">
-        <h3>Rumus Luas Persegi Yaitu : L = S x S</h3>   
+        <img src="./asset/persegi.png" width="180px">
+        <h3>Rumus Luas Persegi Yaitu : L = S x S <br> Di mana : <br> L = Luas dan S = Sisi</h3> 
+        <h2>Rumus Keliling Persegi Yaitu : K = 4 x S <br> Di mana : <br> K = Keliling dan S = Sisi</h2>   
    </header> 
    <div class="inputsection">
-        <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label>
+        <label for="squareSide" id="lblSquareSide">Hitung Luas dan Keliling Persegi</label>
         <input type="number" id="squareSide">
    </div>
    <div class="buttons">
-        <button id="hitungButton">Hitung</button>
+        <button id="countButton">Hitung</button>
         <button id="rstButton">Reset</button>
    </div>
+   <div id="Luas"></div>
 </body>
 </html>
